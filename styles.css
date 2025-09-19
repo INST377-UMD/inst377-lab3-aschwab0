@@ -1,0 +1,25 @@
+div{
+    border: solid;
+}
+
+.main{
+    background-color: aquamarine;
+    float: left;
+    width: 60%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid;
+}
+
+.sidebar{
+    background-color: red;
+    float: right;
+    width: 30%;
+    padding: 10px;
+}
+
+.footer{
+    background-color: green;
+    clear: both;
+    text-align: center;
+}
