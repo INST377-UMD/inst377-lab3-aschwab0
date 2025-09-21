@@ -2,24 +2,32 @@ div{
     border: solid;
 }
 
-.main{
-    background-color: aquamarine;
+.header_footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     float: left;
-    width: 60%;
+    width: 100%;
     padding: 20px;
     margin-bottom: 20px;
     border: solid;
+    text-align: center;
 }
+
 
 .sidebar{
     background-color: red;
     float: right;
     width: 30%;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
-.footer{
+.main{
     background-color: green;
     clear: both;
     text-align: center;
+    margin-bottom: 20px;
+    float: left;
+    width: 62%;
+    padding: 10px;
 }
