@@ -2,6 +2,9 @@ div{
     border: solid;
 }
 
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .header_footer{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -22,6 +25,10 @@ div{
     margin-bottom: 20px;
 }
 
+.sidebar:hover{
+    background-color: blue;
+}
+
 .main{
     background-color: green;
     clear: both;
@@ -31,3 +38,12 @@ div{
     width: 62%;
     padding: 10px;
 }
+
+button[type="submit"]:hover{
+    background-color: blue;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+}
+
